@@ -1,0 +1,2 @@
+#+TITLE: Inbox
+#+SEQ_TODO: TODO(t) NEXT(n) DONE(d)

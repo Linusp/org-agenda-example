@@ -1,5 +1,5 @@
 * Emacs Org Agenda Example
 
-- [ ] add agenda template files
+- [X] add agenda template files
 - [ ] create example emacs config
 - [ ] add script for installation

@@ -1,0 +1,146 @@
+#+TITLE: 工作事项
+#+CATEGORY: 工作
+#+SEQ_TODO: TODO(t) NEXT(n) SOMETIME(s) | DONE(d)
+
+* SOMETIME 开会
+   :LOGBOOK:
+   CLOCK: [$(curweek-2) 二 10:38]--[$(curweek-2) 二 10:39] =>  0:01
+   CLOCK: [$(lastweek-3) 三 10:30]--[$(lastweek-3) 三 10:35] =>  0:05
+   CLOCK: [$(lastweek-1) 一 11:00]--[$(lastweek-1) 一 11:40] =>  0:40
+   :END:
+* TODO 写工作周报
+  DEADLINE: <2020-11-06 五 18:00 +1w> SCHEDULED: <2020-11-06 五 17:00 +1w>
+  :LOGBOOK:
+  - State "DONE"       from "TODO"       [$(lastweek-5) 五 21:15]
+  CLOCK: [$(lastweek-5) 五 20:42]--[$(lastweek-5) 五 21:15] =>  0:33
+  :END:
+
+* NEXT 工作项目A
+  DEADLINE: <$(curweek-5) 五>
+
+** DONE 工作项目A.1
+   CLOSED: [$(lastweek-3) 三 11:54] DEADLINE: <$(lastweek-3) 三 12:00> SCHEDULED: <$(lastweek-1) 一 15:00>
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [$(lastweek-3) 三 11:54]
+   CLOCK: [$(lastweek-3) 三 10:38]--[$(lastweek-3) 三 11:54] =>  1:16
+   CLOCK: [$(lastweek-2) 二 16:32]--[$(lastweek-2) 二 19:16] =>  2:44
+   CLOCK: [$(lastweek-1) 一 18:35]--[$(lastweek-1) 一 18:50] =>  0:15
+   :END:
+** DONE 工作项目A.2
+   CLOSED: [$(lastweek-3) 三 14:40] DEADLINE: <$(lastweek-3) 三 19:00>
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [$(lastweek-3) 三 14:40]
+   CLOCK: [$(lastweek-3) 三 14:19]--[$(lastweek-3) 三 14:40] =>  0:21
+   CLOCK: [$(lastweek-3) 三 11:56]--[$(lastweek-3) 三 12:19] =>  0:23
+   :END:
+
+** DONE 工作项目A.3
+   CLOSED: [$(lastweek-3) 三 17:30] DEADLINE: <$(lastweek-3) 三 16:00> SCHEDULED: <$(lastweek-3) 三 14:40>
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [$(lastweek-3) 三 17:30]
+   CLOCK: [$(lastweek-3) 三 15:44]--[$(lastweek-3) 三 17:30] =>  1:46
+   CLOCK: [$(lastweek-3) 三 14:40]--[$(lastweek-3) 三 15:00] =>  0:20
+   :END:
+** DONE 工作项目A.4
+   CLOSED: [$(lastweek-5) 五 20:42] DEADLINE: <$(lastweek-5) 五 19:00> SCHEDULED: <$(lastweek-2) 二 16:30>
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [$(lastweek-5) 五 20:42]
+   CLOCK: [$(lastweek-5) 五 20:04]--[$(lastweek-5) 五 20:42] =>  0:38
+   CLOCK: [$(lastweek-5) 五 14:25]--[$(lastweek-5) 五 19:16] =>  4:51
+   CLOCK: [$(lastweek-5) 五 11:10]--[$(lastweek-5) 五 12:14] =>  1:04
+   CLOCK: [$(lastweek-4) 四 19:26]--[$(lastweek-4) 四 21:09] =>  1:43
+   CLOCK: [$(lastweek-4) 四 18:40]--[$(lastweek-4) 四 18:52] =>  0:12
+   CLOCK: [$(lastweek-4) 四 14:24]--[$(lastweek-4) 四 15:48] =>  1:24
+   CLOCK: [$(lastweek-4) 四 14:17]--[$(lastweek-4) 四 14:18] =>  0:01
+   CLOCK: [$(lastweek-4) 四 10:15]--[$(lastweek-4) 四 12:16] =>  2:01
+   CLOCK: [$(lastweek-3) 三 19:15]--[$(lastweek-3) 三 19:17] =>  0:02
+   :END:
+** DONE 工作项目A.5
+   CLOSED: [$(curweek-5) 五 19:03] DEADLINE: <$(curweek-5) 五> SCHEDULED: <$(curweek-1) 一>
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [$(curweek-6) 六 00:07]
+   CLOCK: [$(curweek-5) 五 16:26]--[$(curweek-5) 五 19:03] =>  2:37
+   CLOCK: [$(curweek-2) 二 16:51]--[$(curweek-2) 二 17:15] =>  0:24
+   CLOCK: [$(curweek-1) 一 14:00]--[$(curweek-1) 一 16:49] =>  2:49
+   CLOCK: [$(curweek-1) 一 10:10]--[$(curweek-1) 一 13:12] =>  3:02
+   :END:
+
+* NEXT 工作项目B
+  DEADLINE: <$(curweek-5) 五>
+
+** DONE 工作项目B.1
+   CLOSED: [$(curweek-2) 二 18:50] DEADLINE: <$(curweek-3) 三 19:00> SCHEDULED: <$(lastweek-1) 一>
+   :LOGBOOK:
+   CLOCK: [$(curweek-2) 二 17:15]--[$(curweek-2) 二 18:50] =>  1:35
+   CLOCK: [$(curweek-2) 二 15:17]--[$(curweek-2) 二 16:51] =>  1:34
+   CLOCK: [$(curweek-2) 二 10:39]--[$(curweek-2) 二 11:58] =>  1:19
+   CLOCK: [$(curweek-2) 二 10:26]--[$(curweek-2) 二 10:38] =>  0:12
+   CLOCK: [$(curweek-1) 一 21:34]--[$(curweek-1) 一 22:09] =>  0:35
+   CLOCK: [$(curweek-1) 一 20:25]--[$(curweek-1) 一 21:19] =>  0:54
+   CLOCK: [$(curweek-1) 一 17:07]--[$(curweek-1) 一 18:46] =>  1:39
+   CLOCK: [$(lastweek-5) 五 10:11]--[$(lastweek-5) 五 10:50] =>  0:39
+   CLOCK: [$(lastweek-4) 四 18:32]--[$(lastweek-4) 四 18:39] =>  0:07
+   CLOCK: [$(lastweek-4) 四 15:48]--[$(lastweek-4) 四 17:15] =>  1:27
+   CLOCK: [$(lastweek-2) 二 15:20]--[$(lastweek-2) 二 16:26] =>  1:06
+   CLOCK: [$(lastweek-2) 二 10:25]--[$(lastweek-2) 二 12:06] =>  1:41
+   CLOCK: [$(lastweek-1) 一 14:25]--[$(lastweek-1) 一 18:35] =>  4:10
+   CLOCK: [$(lastweek-1) 一 11:40]--[$(lastweek-1) 一 12:38] =>  0:58
+   CLOCK: [$(lastweek-1) 一 10:17]--[$(lastweek-1) 一 11:00] =>  0:43
+   :END:
+
+** NEXT 工作项目B.2
+   DEADLINE: <$(curweek-5) 五> SCHEDULED: <$(curweek-3) 三>
+   :LOGBOOK:
+   CLOCK: [$(curweek-5) 五 13:36]--[$(curweek-5) 五 16:26] =>  2:50
+   CLOCK: [$(curweek-5) 五 11:30]--[$(curweek-5) 五 12:53] =>  1:23
+   CLOCK: [$(curweek-5) 五 09:35]--[$(curweek-5) 五 11:01] =>  1:26
+   CLOCK: [$(curweek-5) 五 09:06]--[$(curweek-5) 五 09:14] =>  0:08
+   CLOCK: [$(curweek-4) 四 19:08]--[$(curweek-4) 四 20:49] =>  1:41
+   CLOCK: [$(curweek-4) 四 14:35]--[$(curweek-4) 四 18:40] =>  4:05
+   CLOCK: [$(curweek-4) 四 13:03]--[$(curweek-4) 四 14:11] =>  1:08
+   CLOCK: [$(curweek-4) 四 12:39]--[$(curweek-4) 四 12:45] =>  0:06
+   CLOCK: [$(curweek-4) 四 09:57]--[$(curweek-4) 四 12:37] =>  2:40
+   CLOCK: [$(curweek-3) 三 15:13]--[$(curweek-3) 三 19:35] =>  4:22
+   CLOCK: [$(curweek-3) 三 14:36]--[$(curweek-3) 三 15:09] =>  0:33
+   CLOCK: [$(curweek-3) 三 10:24]--[$(curweek-3) 三 12:18] =>  1:54
+   :END:
+
+* DONE 工作项目C
+   CLOSED: [$(lastweek-3) 三 15:39] DEADLINE: <$(lastweek-3) 三 16:00>
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [$(lastweek-3) 三 15:39]
+   CLOCK: [$(lastweek-3) 三 15:00]--[$(lastweek-3) 三 15:39] =>  0:39
+   :END:
+
+* DONE 工作项目D
+  CLOSED: [$(curweek-7) 日 22:31] DEADLINE: <$(curweek-3) 三> SCHEDULED: <$(lastweek-3) 三 17:30>
+
+** DONE 工作项目D.1
+   DEADLINE: <$(curweek-5) 五> SCHEDULED: <$(lastweek-3) 三>
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [$(curweek-8) 一 09:26]
+   CLOCK: [$(curweek-4) 四 14:11]--[$(curweek-4) 四 14:35] =>  0:24
+   CLOCK: [$(curweek-2) 二 18:54]--[$(curweek-2) 二 19:24] =>  0:30
+   CLOCK: [$(lastweek-3) 三 17:32]--[$(lastweek-3) 三 19:15] =>  1:43
+   :END:
+
+** DONE 工作项目D.2
+   CLOSED: [$(curweek-7) 日 20:26] DEADLINE: <$(curweek-5) 五> SCHEDULED: <$(curweek-3) 三>
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [$(curweek-7) 日 20:26]
+   CLOCK: [$(curweek-7) 日 20:24]--[$(curweek-7) 日 20:26] =>  0:02
+   :END:
+
+** DONE 工作项目D.3
+   CLOSED: [$(curweek-7) 日 22:31] DEADLINE: <$(curweek-5) 五>
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [$(curweek-8) 一 09:12]
+   CLOCK: [$(curweek-7) 日 20:28]--[$(curweek-7) 日 22:31] =>  2:03
+   :END:
+
+* DONE 工作项目E
+   CLOSED: [$(curweek-5) 五 11:44] DEADLINE: <$(curweek-5) 五 11:00>
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [$(curweek-5) 五 11:44]
+   CLOCK: [$(curweek-5) 五 11:02]--[$(curweek-5) 五 11:26] =>  0:24
+   :END:

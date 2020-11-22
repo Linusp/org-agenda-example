@@ -1,0 +1,489 @@
+#+TITLE: 个人事项
+#+SEQ_TODO: TODO(t) NEXT(n) SOMETIME(s) | DONE(d)
+
+* 休闲
+  :PROPERTIES:
+  :CATEGORY: 休闲
+  :END:
+
+** SOMETIME 看视频
+   :LOGBOOK:
+   CLOCK: [$(curweek-7) 日 18:22]--[$(curweek-7) 日 18:28] =>  0:06
+   CLOCK: [$(curweek-7) 日 17:22]--[$(curweek-7) 日 17:53] =>  0:31
+   CLOCK: [$(curweek-7) 日 16:13]--[$(curweek-7) 日 16:29] =>  0:16
+   CLOCK: [$(curweek-7) 日 13:11]--[$(curweek-7) 日 13:57] =>  0:46
+   CLOCK: [$(curweek-6) 六 19:48]--[$(curweek-6) 六 21:54] =>  2:06
+   CLOCK: [$(curweek-6) 六 18:17]--[$(curweek-6) 六 19:37] =>  1:20
+   CLOCK: [$(curweek-6) 六 13:16]--[$(curweek-6) 六 15:40] =>  2:24
+   CLOCK: [$(curweek-6) 六 09:20]--[$(curweek-6) 六 11:03] =>  1:43
+   CLOCK: [$(curweek-5) 五 22:37]--[$(curweek-5) 五 23:35] =>  0:58
+   CLOCK: [$(curweek-4) 四 20:59]--[$(curweek-4) 四 22:20] =>  1:21
+   CLOCK: [$(curweek-2) 二 21:00]--[$(curweek-2) 二 22:05] =>  1:05
+   CLOCK: [$(lastweek-7) 日 20:56]--[$(lastweek-7) 日 21:41] =>  0:45
+   CLOCK: [$(lastweek-7) 日 19:29]--[$(lastweek-7) 日 20:00] =>  0:31
+   CLOCK: [$(lastweek-7) 日 15:39]--[$(lastweek-7) 日 16:08] =>  0:29
+   CLOCK: [$(lastweek-6) 六 21:33]--[$(lastweek-6) 六 21:57] =>  0:24
+   CLOCK: [$(lastweek-6) 六 19:12]--[$(lastweek-6) 六 19:32] =>  0:20
+   CLOCK: [$(lastweek-6) 六 15:53]--[$(lastweek-6) 六 16:10] =>  0:17
+   CLOCK: [$(lastweek-6) 六 14:43]--[$(lastweek-6) 六 15:29] =>  0:46
+   CLOCK: [$(lastweek-6) 六 10:42]--[$(lastweek-6) 六 11:00] =>  0:18
+   CLOCK: [$(lastweek-6) 六 08:15]--[$(lastweek-6) 六 09:12] =>  0:57
+   CLOCK: [$(lastweek-5) 五 21:17]--[$(lastweek-5) 五 21:49] =>  0:32
+   CLOCK: [$(lastweek-4) 四 13:56]--[$(lastweek-4) 四 14:14] =>  0:18
+   CLOCK: [$(lastweek-4) 四 08:50]--[$(lastweek-4) 四 09:15] =>  0:25
+   CLOCK: [$(lastweek-3) 三 23:30]--[$(lastweek-3) 三 23:49] =>  0:19
+   CLOCK: [$(lastweek-3) 三 22:56]--[$(lastweek-3) 三 22:58] =>  0:02
+   CLOCK: [$(lastweek-3) 三 08:10]--[$(lastweek-3) 三 08:40] =>  0:30
+   CLOCK: [$(lastweek-2) 二 20:14]--[$(lastweek-2) 二 21:15] =>  1:01
+   CLOCK: [$(lastweek-1) 一 22:03]--[$(lastweek-1) 一 22:26] =>  0:23
+   CLOCK: [$(lastweek-1) 一 19:36]--[$(lastweek-1) 一 19:56] =>  0:20
+   CLOCK: [$(lastweek-1) 一 07:55]--[$(lastweek-1) 一 08:30] =>  0:35
+   :END:
+** SOMETIME 玩游戏
+   :LOGBOOK:
+   CLOCK: [$(curweek-4) 四 20:49]--[$(curweek-4) 四 20:59] =>  0:10
+   CLOCK: [$(curweek-3) 三 21:02]--[$(curweek-3) 三 21:13] =>  0:11
+   CLOCK: [$(curweek-1) 一 21:19]--[$(curweek-1) 一 21:34] =>  0:15
+   CLOCK: [$(curweek-1) 一 13:32]--[$(curweek-1) 一 14:00] =>  0:28
+   CLOCK: [$(curweek-1) 一 08:32]--[$(curweek-1) 一 08:42] =>  0:10
+   CLOCK: [$(curweek-1) 一 07:27]--[$(curweek-1) 一 07:55] =>  0:28
+   CLOCK: [$(lastweek-6) 六 15:49]--[$(lastweek-6) 六 15:53] =>  0:04
+   :END:
+
+** SOMETIME 逛社交网络
+   :LOGBOOK:
+   CLOCK: [$(curweek-7) 日 15:08]--[$(curweek-7) 日 15:12] =>  0:04
+   CLOCK: [$(curweek-6) 六 16:28]--[$(curweek-6) 六 16:32] =>  0:04
+   CLOCK: [$(curweek-6) 六 15:40]--[$(curweek-6) 六 15:44] =>  0:04
+   CLOCK: [$(curweek-6) 六 11:27]--[$(curweek-6) 六 12:18] =>  0:51
+   :END:
+
+** SOMETIME 看小说
+   :LOGBOOK:
+   CLOCK: [$(curweek-7) 日 22:40]--[$(curweek-7) 日 23:30] =>  0:50
+   CLOCK: [$(curweek-7) 日 15:12]--[$(curweek-7) 日 15:57] =>  0:45
+   CLOCK: [$(curweek-7) 日 08:30]--[$(curweek-7) 日 08:59] =>  0:29
+   CLOCK: [$(curweek-4) 四 22:58]--[$(curweek-4) 四 23:45] =>  0:47
+   CLOCK: [$(curweek-4) 四 22:20]--[$(curweek-4) 四 22:28] =>  0:08
+   CLOCK: [$(curweek-4) 四 09:44]--[$(curweek-4) 四 09:57] =>  0:13
+   CLOCK: [$(curweek-4) 四 07:40]--[$(curweek-4) 四 09:18] =>  1:38
+   CLOCK: [$(curweek-3) 三 23:02]--[$(curweek-3) 三 23:45] =>  0:43
+   CLOCK: [$(curweek-3) 三 22:55]--[$(curweek-3) 三 22:55] =>  0:00
+   CLOCK: [$(curweek-3) 三 21:13]--[$(curweek-3) 三 22:30] =>  1:17
+   CLOCK: [$(curweek-3) 三 14:03]--[$(curweek-3) 三 14:36] =>  0:33
+   CLOCK: [$(curweek-2) 二 23:07]--[$(curweek-2) 二 23:50] =>  0:43
+   CLOCK: [$(curweek-2) 二 14:17]--[$(curweek-2) 二 15:17] =>  1:00
+   CLOCK: [$(curweek-2) 二 07:40]--[$(curweek-2) 二 08:16] =>  0:36
+   CLOCK: [$(curweek-1) 一 22:10]--[$(curweek-1) 一 22:25] =>  0:15
+   CLOCK: [$(curweek-1) 一 19:20]--[$(curweek-1) 一 20:25] =>  1:05
+   CLOCK: [$(curweek-1) 一 16:49]--[$(curweek-1) 一 17:07] =>  0:18
+   CLOCK: [$(lastweek-7) 日 21:41]--[$(lastweek-7) 日 21:56] =>  0:15
+   CLOCK: [$(lastweek-6) 六 23:25]--[$(lastweek-6) 六 23:35] =>  0:10
+   CLOCK: [$(lastweek-5) 五 22:47]--[$(lastweek-5) 五 23:30] =>  0:43
+   CLOCK: [$(lastweek-5) 五 21:49]--[$(lastweek-5) 五 22:05] =>  0:16
+   CLOCK: [$(lastweek-5) 五 10:50]--[$(lastweek-5) 五 11:10] =>  0:20
+   CLOCK: [$(lastweek-4) 四 23:07]--[$(lastweek-4) 四 23:45] =>  0:38
+   CLOCK: [$(lastweek-3) 三 23:49]--[$(lastweek-4) 四 00:15] =>  0:26
+   CLOCK: [$(lastweek-2) 二 13:39]--[$(lastweek-2) 二 13:56] =>  0:17
+   CLOCK: [$(lastweek-2) 二 07:02]--[$(lastweek-2) 二 07:34] =>  0:32
+   CLOCK: [$(lastweek-1) 一 22:34]--[$(lastweek-1) 一 23:00] =>  0:26
+   CLOCK: [$(lastweek-1) 一 21:39]--[$(lastweek-1) 一 21:54] =>  0:15
+   CLOCK: [$(lastweek-1) 一 20:37]--[$(lastweek-1) 一 20:44] =>  0:07
+   CLOCK: [$(lastweek-1) 一 19:56]--[$(lastweek-1) 一 20:30] =>  0:34
+   CLOCK: [$(lastweek-1) 一 13:54]--[$(lastweek-1) 一 14:23] =>  0:29
+   :END:
+
+* 日常
+  :PROPERTIES:
+  :CATEGORY: 日常
+  :END:
+** SOMETIME 做饭
+   :LOGBOOK:
+   CLOCK: [$(curweek-5) 五 12:53]--[$(curweek-5) 五 13:09] =>  0:16
+   CLOCK: [$(curweek-2) 二 20:29]--[$(curweek-2) 二 20:44] =>  0:15
+   CLOCK: [$(curweek-1) 一 08:01]--[$(curweek-1) 一 08:17] =>  0:16
+   CLOCK: [$(lastweek-7) 日 08:46]--[$(lastweek-7) 日 09:00] =>  0:14
+   CLOCK: [$(lastweek-6) 六 14:03]--[$(lastweek-6) 六 14:14] =>  0:11
+   CLOCK: [$(lastweek-6) 六 12:13]--[$(lastweek-6) 六 13:28] =>  1:15
+   CLOCK: [$(lastweek-6) 六 09:26]--[$(lastweek-6) 六 09:42] =>  0:16
+   CLOCK: [$(lastweek-5) 五 19:16]--[$(lastweek-5) 五 19:30] =>  0:14
+   CLOCK: [$(lastweek-5) 五 12:14]--[$(lastweek-5) 五 13:06] =>  0:52
+   CLOCK: [$(lastweek-5) 五 09:23]--[$(lastweek-5) 五 09:34] =>  0:11
+   CLOCK: [$(lastweek-4) 四 12:16]--[$(lastweek-4) 四 13:40] =>  1:24
+   CLOCK: [$(lastweek-4) 四 09:31]--[$(lastweek-4) 四 09:43] =>  0:12
+   CLOCK: [$(lastweek-3) 三 09:02]--[$(lastweek-3) 三 09:13] =>  0:11
+   CLOCK: [$(lastweek-2) 二 07:41]--[$(lastweek-2) 二 07:56] =>  0:15
+   CLOCK: [$(lastweek-1) 一 12:38]--[$(lastweek-1) 一 13:20] =>  0:42
+   :END:
+
+** SOMETIME 睡觉
+   :LOGBOOK:
+   CLOCK: [$(curweek-7) 日 23:45]--[$(curweek-8) 一 08:30] =>  8:45
+   CLOCK: [$(curweek-6) 六 23:45]--[$(curweek-7) 日 08:30] =>  7:45
+   CLOCK: [$(curweek-5) 五 23:50]--[$(curweek-6) 六 09:20] =>  9:30
+   CLOCK: [$(curweek-4) 四 23:50]--[$(curweek-5) 五 08:54] =>  9:04
+   CLOCK: [$(curweek-3) 三 23:59]--[$(curweek-4) 四 07:37] =>  7:38
+   CLOCK: [$(curweek-2) 二 23:50]--[$(curweek-3) 三 08:49] =>  8:59
+   CLOCK: [$(curweek-1) 一 23:45]--[$(curweek-2) 二 07:30] =>  7:45
+   CLOCK: [$(lastweek-7) 日 23:30]--[$(curweek-1) 一 07:26] =>  7:56
+   CLOCK: [$(lastweek-6) 六 23:50]--[$(lastweek-7) 日 08:30] =>  8:40
+   CLOCK: [$(lastweek-5) 五 23:45]--[$(lastweek-6) 六 08:15] =>  8:30
+   CLOCK: [$(lastweek-4) 四 23:45]--[$(lastweek-5) 五 08:53] =>  9:08
+   CLOCK: [$(lastweek-3) 三 23:50]--[$(lastweek-4) 四 08:50] =>  9:00
+   CLOCK: [$(lastweek-2) 二 23:52]--[$(lastweek-3) 三 08:10] =>  8:18
+   CLOCK: [$(lastweek-1) 一 23:15]--[$(lastweek-2) 二 07:02] =>  7:47
+   CLOCK: [$(lastweek-0) 日 23:30]--[$(lastweek-1) 一 07:53] =>  8:23
+   :END:
+
+** SOMETIME 通勤
+   :LOGBOOK:
+   CLOCK: [$(curweek-3) 三 19:35]--[$(curweek-3) 三 20:35] =>  1:00
+   CLOCK: [$(curweek-3) 三 09:30]--[$(curweek-3) 三 10:23] =>  0:53
+   CLOCK: [$(curweek-2) 二 19:27]--[$(curweek-2) 二 20:24] =>  0:57
+   CLOCK: [$(curweek-2) 二 09:10]--[$(curweek-2) 二 10:02] =>  0:52
+   CLOCK: [$(lastweek-3) 三 19:24]--[$(lastweek-3) 三 20:17] =>  0:53
+   CLOCK: [$(lastweek-3) 三 09:26]--[$(lastweek-3) 三 10:15] =>  0:49
+   CLOCK: [$(lastweek-2) 二 19:16]--[$(lastweek-2) 二 20:06] =>  0:50
+   CLOCK: [$(lastweek-2) 二 09:24]--[$(lastweek-2) 二 10:17] =>  0:53
+   :END:
+
+** SOMETIME 洗漱
+   :LOGBOOK:
+   CLOCK: [$(curweek-7) 日 20:10]--[$(curweek-7) 日 20:23] =>  0:13
+   CLOCK: [$(curweek-7) 日 13:57]--[$(curweek-7) 日 14:03] =>  0:06
+   CLOCK: [$(curweek-6) 六 21:54]--[$(curweek-6) 六 21:59] =>  0:05
+   CLOCK: [$(curweek-6) 六 15:44]--[$(curweek-6) 六 15:49] =>  0:05
+   CLOCK: [$(curweek-6) 六 11:05]--[$(curweek-6) 六 11:21] =>  0:16
+   CLOCK: [$(curweek-5) 五 19:19]--[$(curweek-5) 五 19:30] =>  0:11
+   CLOCK: [$(curweek-4) 四 22:28]--[$(curweek-4) 四 22:58] =>  0:30
+   CLOCK: [$(curweek-4) 四 12:37]--[$(curweek-4) 四 12:39] =>  0:02
+   CLOCK: [$(curweek-3) 三 22:31]--[$(curweek-3) 三 22:43] =>  0:12
+   CLOCK: [$(curweek-3) 三 09:16]--[$(curweek-3) 三 09:27] =>  0:11
+   CLOCK: [$(curweek-2) 二 23:00]--[$(curweek-2) 二 23:07] =>  0:07
+   CLOCK: [$(curweek-2) 二 08:17]--[$(curweek-2) 二 09:06] =>  0:49
+   CLOCK: [$(curweek-1) 一 23:06]--[$(curweek-1) 一 23:13] =>  0:07
+   CLOCK: [$(curweek-1) 一 08:27]--[$(curweek-1) 一 08:32] =>  0:05
+   CLOCK: [$(lastweek-7) 日 21:56]--[$(lastweek-7) 日 22:19] =>  0:23
+   CLOCK: [$(lastweek-7) 日 16:50]--[$(lastweek-7) 日 16:55] =>  0:05
+   CLOCK: [$(lastweek-7) 日 09:05]--[$(lastweek-7) 日 09:10] =>  0:05
+   CLOCK: [$(lastweek-6) 六 19:56]--[$(lastweek-6) 六 20:02] =>  0:06
+   CLOCK: [$(lastweek-6) 六 16:15]--[$(lastweek-6) 六 16:24] =>  0:09
+   CLOCK: [$(lastweek-6) 六 10:37]--[$(lastweek-6) 六 10:42] =>  0:05
+   CLOCK: [$(lastweek-5) 五 22:05]--[$(lastweek-5) 五 22:28] =>  0:23
+   CLOCK: [$(lastweek-5) 五 14:18]--[$(lastweek-5) 五 14:23] =>  0:05
+   CLOCK: [$(lastweek-5) 五 09:43]--[$(lastweek-5) 五 09:48] =>  0:05
+   CLOCK: [$(lastweek-4) 四 22:11]--[$(lastweek-4) 四 22:43] =>  0:32
+   CLOCK: [$(lastweek-4) 四 14:18]--[$(lastweek-4) 四 14:24] =>  0:06
+   CLOCK: [$(lastweek-3) 三 23:24]--[$(lastweek-3) 三 23:30] =>  0:06
+   CLOCK: [$(lastweek-3) 三 08:45]--[$(lastweek-3) 三 09:02] =>  0:17
+   CLOCK: [$(lastweek-2) 二 23:46]--[$(lastweek-2) 二 23:51] =>  0:05
+   CLOCK: [$(lastweek-2) 二 08:21]--[$(lastweek-2) 二 08:27] =>  0:06
+   CLOCK: [$(lastweek-1) 一 20:30]--[$(lastweek-1) 一 20:37] =>  0:07
+   CLOCK: [$(lastweek-1) 一 13:49]--[$(lastweek-1) 一 13:54] =>  0:05
+   CLOCK: [$(lastweek-1) 一 09:30]--[$(lastweek-1) 一 10:02] =>  0:32
+   :END:
+
+** SOMETIME 吃饭
+   :LOGBOOK:
+   CLOCK: [$(curweek-7) 日 18:43]--[$(curweek-7) 日 18:53] =>  0:10
+   CLOCK: [$(curweek-7) 日 12:35]--[$(curweek-7) 日 13:11] =>  0:36
+   CLOCK: [$(curweek-6) 六 19:37]--[$(curweek-6) 六 19:48] =>  0:11
+   CLOCK: [$(curweek-6) 六 12:58]--[$(curweek-6) 六 13:16] =>  0:18
+   CLOCK: [$(curweek-5) 五 19:03]--[$(curweek-5) 五 19:15] =>  0:12
+   CLOCK: [$(curweek-5) 五 13:09]--[$(curweek-5) 五 13:36] =>  0:27
+   CLOCK: [$(curweek-5) 五 09:14]--[$(curweek-5) 五 09:30] =>  0:16
+   CLOCK: [$(curweek-4) 四 18:40]--[$(curweek-4) 四 19:08] =>  0:28
+   CLOCK: [$(curweek-4) 四 12:45]--[$(curweek-4) 四 13:03] =>  0:18
+   CLOCK: [$(curweek-4) 四 09:33]--[$(curweek-4) 四 09:44] =>  0:11
+   CLOCK: [$(curweek-3) 三 20:35]--[$(curweek-3) 三 21:02] =>  0:27
+   CLOCK: [$(curweek-2) 二 20:44]--[$(curweek-2) 二 21:00] =>  0:16
+   CLOCK: [$(curweek-2) 二 11:58]--[$(curweek-2) 二 14:05] =>  2:07
+   CLOCK: [$(curweek-1) 一 18:46]--[$(curweek-1) 一 19:20] =>  0:34
+   CLOCK: [$(curweek-1) 一 13:12]--[$(curweek-1) 一 13:32] =>  0:20
+   CLOCK: [$(curweek-1) 一 08:17]--[$(curweek-1) 一 08:27] =>  0:10
+   CLOCK: [$(lastweek-7) 日 18:58]--[$(lastweek-7) 日 19:15] =>  0:17
+   CLOCK: [$(lastweek-7) 日 13:10]--[$(lastweek-7) 日 13:39] =>  0:29
+   CLOCK: [$(lastweek-7) 日 09:00]--[$(lastweek-7) 日 09:04] =>  0:04
+   CLOCK: [$(lastweek-6) 六 19:32]--[$(lastweek-6) 六 19:56] =>  0:24
+   CLOCK: [$(lastweek-6) 六 14:14]--[$(lastweek-6) 六 14:43] =>  0:29
+   CLOCK: [$(lastweek-6) 六 09:42]--[$(lastweek-6) 六 09:49] =>  0:07
+   CLOCK: [$(lastweek-5) 五 19:30]--[$(lastweek-5) 五 19:55] =>  0:25
+   CLOCK: [$(lastweek-5) 五 13:06]--[$(lastweek-5) 五 13:22] =>  0:16
+   CLOCK: [$(lastweek-5) 五 09:34]--[$(lastweek-5) 五 09:43] =>  0:09
+   CLOCK: [$(lastweek-4) 四 18:52]--[$(lastweek-4) 四 19:25] =>  0:33
+   CLOCK: [$(lastweek-4) 四 13:40]--[$(lastweek-4) 四 13:56] =>  0:16
+   CLOCK: [$(lastweek-3) 三 20:26]--[$(lastweek-3) 三 21:07] =>  0:41
+   CLOCK: [$(lastweek-3) 三 09:13]--[$(lastweek-3) 三 09:17] =>  0:04
+   CLOCK: [$(lastweek-2) 二 07:56]--[$(lastweek-2) 二 08:21] =>  0:25
+   CLOCK: [$(lastweek-1) 一 19:11]--[$(lastweek-1) 一 19:36] =>  0:25
+   CLOCK: [$(lastweek-1) 一 13:20]--[$(lastweek-1) 一 13:44] =>  0:24
+   CLOCK: [$(lastweek-1) 一 08:56]--[$(lastweek-1) 一 09:15] =>  0:19
+   :END:
+
+** SOMETIME 打扫卫生
+   :LOGBOOK:
+   CLOCK: [$(lastweek-7) 日 13:39]--[$(lastweek-7) 日 14:07] =>  0:28
+   CLOCK: [$(lastweek-7) 日 12:39]--[$(lastweek-7) 日 13:10] =>  0:31
+   CLOCK: [$(lastweek-7) 日 11:21]--[$(lastweek-7) 日 11:25] =>  0:04
+   :END:
+
+** SOMETIME 外出
+   :LOGBOOK:
+   CLOCK: [$(curweek-7) 日 16:29]--[$(curweek-7) 日 17:21] =>  0:52
+   CLOCK: [$(lastweek-7) 日 16:55]--[$(lastweek-7) 日 17:26] =>  0:31
+   :END:
+
+** SOMETIME 聚餐
+   :LOGBOOK:
+   CLOCK: [$(curweek-5) 五 19:30]--[$(curweek-5) 五 22:35] =>  3:05
+   CLOCK: [$(curweek-3) 三 12:18]--[$(curweek-3) 三 13:52] =>  1:34
+   CLOCK: [$(lastweek-3) 三 12:19]--[$(lastweek-3) 三 13:42] =>  1:23
+   CLOCK: [$(lastweek-2) 二 12:07]--[$(lastweek-2) 二 13:33] =>  1:26
+   :END:
+** SOMETIME 发呆
+   :LOGBOOK:
+   CLOCK: [$(curweek-3) 三 09:03]--[$(curweek-3) 三 09:16] =>  0:13
+   CLOCK: [$(lastweek-7) 日 14:07]--[$(lastweek-7) 日 14:26] =>  0:19
+   CLOCK: [$(lastweek-7) 日 09:10]--[$(lastweek-7) 日 09:23] =>  0:13
+   CLOCK: [$(lastweek-6) 六 15:29]--[$(lastweek-6) 六 15:49] =>  0:20
+   CLOCK: [$(lastweek-4) 四 17:21]--[$(lastweek-4) 四 17:35] =>  0:14
+   CLOCK: [$(lastweek-4) 四 09:15]--[$(lastweek-4) 四 09:31] =>  0:16
+   CLOCK: [$(lastweek-3) 三 22:11]--[$(lastweek-3) 三 22:23] =>  0:12
+   CLOCK: [$(lastweek-2) 二 09:00]--[$(lastweek-2) 二 09:08] =>  0:08
+   :END:
+
+** TODO 写今日计划
+   DEADLINE: <$(curweek-7) 日 08:30 +1d> SCHEDULED: <$(curweek-7) 日 07:30 +1d>
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [$(curweek-7) 日 09:22]
+   CLOCK: [$(curweek-7) 日 08:59]--[$(curweek-7) 日 09:22] =>  0:23
+   - State "DONE"       from "TODO"       [$(curweek-6) 六 12:19]
+   - State "DONE"       from "TODO"       [$(curweek-5) 五 09:05]
+   CLOCK: [$(curweek-5) 五 09:00]--[$(curweek-5) 五 09:05] =>  0:05
+   - State "DONE"       from "TODO"       [$(curweek-4) 四 09:24]
+   CLOCK: [$(curweek-4) 四 09:21]--[$(curweek-4) 四 09:24] =>  0:03
+   - State "DONE"       from "TODO"       [$(curweek-3) 三 22:30]
+   CLOCK: [$(curweek-3) 三 08:59]--[$(curweek-3) 三 09:03] =>  0:04
+   - State "DONE"       from "TODO"       [$(curweek-2) 二 10:26]
+   CLOCK: [$(curweek-2) 二 10:25]--[$(curweek-2) 二 10:26] =>  0:01
+   - State "DONE"       from "TODO"       [$(curweek-1) 一 10:09]
+   CLOCK: [$(curweek-1) 一 10:01]--[$(curweek-1) 一 10:09] =>  0:08
+   - State "DONE"       from "TODO"       [$(lastweek-7) 日 09:25]
+   CLOCK: [$(lastweek-7) 日 09:23]--[$(lastweek-7) 日 09:25] =>  0:02
+   - State "DONE"       from "TODO"       [$(lastweek-6) 六 09:54]
+   CLOCK: [$(lastweek-6) 六 09:49]--[$(lastweek-6) 六 09:54] =>  0:05
+   - State "DONE"       from "TODO"       [$(lastweek-5) 五 10:11]
+   CLOCK: [$(lastweek-5) 五 09:54]--[$(lastweek-5) 五 10:11] =>  0:17
+   - State "DONE"       from "TODO"       [$(lastweek-4) 四 10:15]
+   CLOCK: [$(lastweek-4) 四 09:51]--[$(lastweek-4) 四 10:15] =>  0:24
+   - State "DONE"       from "TODO"       [$(lastweek-3) 三 10:29]
+   CLOCK: [$(lastweek-3) 三 10:24]--[$(lastweek-3) 三 10:29] =>  0:05
+   - State "DONE"       from "TODO"       [$(lastweek-2) 二 08:37]
+   CLOCK: [$(lastweek-2) 二 08:27]--[$(lastweek-2) 二 08:37] =>  0:10
+   - State "DONE"       from "NEXT"       [$(lastweek-1) 一 21:38]
+   CLOCK: [$(lastweek-1) 一 20:45]--[$(lastweek-1) 一 21:38] =>  0:53
+   CLOCK: [$(lastweek-1) 一 09:16]--[$(lastweek-1) 一 09:29] =>  0:13
+   :END:
+** TODO 写今日总结
+   DEADLINE: <$(curweek-7) 日 22:30 +1d> SCHEDULED: <$(curweek-7) 日 22:00 +1d>
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [$(curweek-6) 六 23:12]
+   - State "DONE"       from "TODO"       [$(curweek-6) 六 23:12]
+   - State "DONE"       from "TODO"       [$(curweek-6) 六 23:12]
+   - State "DONE"       from "TODO"       [$(curweek-3) 三 23:02]
+   - State "DONE"       from "TODO"       [$(curweek-2) 二 23:24]
+   - State "DONE"       from "TODO"       [$(curweek-1) 一 23:24]
+   CLOCK: [$(curweek-1) 一 23:13]--[$(curweek-1) 一 23:24] =>  0:11
+   - State "DONE"       from "TODO"       [$(lastweek-7) 日 23:24]
+   - State "DONE"       from "TODO"       [$(lastweek-6) 六 23:48]
+   CLOCK: [$(lastweek-6) 六 23:35]--[$(lastweek-6) 六 23:48] =>  0:13
+   - State "DONE"       from "TODO"       [$(lastweek-5) 五 22:45]
+   CLOCK: [$(lastweek-5) 五 22:28]--[$(lastweek-5) 五 22:45] =>  0:17
+   - State "DONE"       from "TODO"       [$(lastweek-4) 四 23:06]
+   CLOCK: [$(lastweek-4) 四 22:45]--[$(lastweek-4) 四 23:06] =>  0:21
+   - State "DONE"       from "TODO"       [$(lastweek-3) 三 23:22]
+   CLOCK: [$(lastweek-3) 三 22:58]--[$(lastweek-3) 三 23:22] =>  0:24
+   - State "DONE"       from "TODO"       [$(lastweek-2) 二 23:46]
+   CLOCK: [$(lastweek-2) 二 23:23]--[$(lastweek-2) 二 23:46] =>  0:23
+   - State "DONE"       from "TODO"       [$(lastweek-1) 一 22:34]
+   CLOCK: [$(lastweek-1) 一 22:26]--[$(lastweek-1) 一 22:34] =>  0:08
+   :END:
+** TODO 晨练
+   DEADLINE: <$(curweek-7) 日 07:30 +1d> SCHEDULED: <$(curweek-7) 日 07:00 +1d>
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [$(curweek-7) 日 20:23]
+   - State "DONE"       from "TODO"       [$(curweek-6) 六 23:12]
+   - State "DONE"       from "TODO"       [$(curweek-5) 五 13:36]
+   - State "DONE"       from "TODO"       [$(curweek-4) 四 09:21]
+   - State "DONE"       from "TODO"       [$(curweek-3) 三 08:59]
+   - State "DONE"       from "TODO"       [$(curweek-2) 二 10:24]
+   - State "DONE"       from "TODO"       [$(curweek-1) 一 09:57]
+   CLOCK: [$(curweek-1) 一 07:55]--[$(curweek-1) 一 08:01] =>  0:06
+   - State "DONE"       from "TODO"       [$(lastweek-7) 日 08:45]
+   CLOCK: [$(lastweek-7) 日 08:39]--[$(lastweek-7) 日 08:45] =>  0:06
+   - State "DONE"       from "TODO"       [$(lastweek-6) 六 09:20]
+   CLOCK: [$(lastweek-6) 六 09:13]--[$(lastweek-6) 六 09:20] =>  0:07
+   - State "DONE"       from "TODO"       [$(lastweek-5) 五 09:21]
+   CLOCK: [$(lastweek-5) 五 09:14]--[$(lastweek-5) 五 09:21] =>  0:07
+   - State "DONE"       from "TODO"       [$(lastweek-5) 五 09:14]
+   - State "DONE"       from "TODO"       [$(lastweek-3) 三 22:45]
+   - State "DONE"       from "TODO"       [$(lastweek-2) 二 07:41]
+   :END:
+
+* 学习
+  :PROPERTIES:
+  :CATEGORY: 学习
+  :END:
+
+** SOMETIME 阅读
+   :LOGBOOK:
+   CLOCK: [$(curweek-7) 日 18:53]--[$(curweek-7) 日 20:10] =>  1:17
+   CLOCK: [$(curweek-7) 日 18:28]--[$(curweek-7) 日 18:43] =>  0:15
+   CLOCK: [$(curweek-7) 日 17:55]--[$(curweek-7) 日 18:21] =>  0:26
+   CLOCK: [$(curweek-7) 日 14:03]--[$(curweek-7) 日 15:06] =>  1:03
+   CLOCK: [$(curweek-7) 日 11:49]--[$(curweek-7) 日 12:35] =>  0:46
+   CLOCK: [$(curweek-7) 日 09:22]--[$(curweek-7) 日 11:40] =>  2:18
+   CLOCK: [$(curweek-6) 六 21:59]--[$(curweek-6) 六 23:17] =>  1:18
+   CLOCK: [$(curweek-6) 六 15:49]--[$(curweek-6) 六 16:28] =>  0:39
+   CLOCK: [$(curweek-6) 六 12:20]--[$(curweek-6) 六 12:58] =>  0:38
+   CLOCK: [$(curweek-4) 四 09:25]--[$(curweek-4) 四 09:33] =>  0:08
+   CLOCK: [$(curweek-2) 二 22:53]--[$(curweek-2) 二 23:00] =>  0:07
+   CLOCK: [$(curweek-2) 二 22:32]--[$(curweek-2) 二 22:53] =>  0:21
+   CLOCK: [$(curweek-2) 二 22:05]--[$(curweek-2) 二 22:32] =>  0:27
+   CLOCK: [$(curweek-1) 一 22:42]--[$(curweek-1) 一 23:06] =>  0:24
+   CLOCK: [$(curweek-1) 一 22:26]--[$(curweek-1) 一 22:42] =>  0:16
+   CLOCK: [$(curweek-1) 一 22:25]--[$(curweek-1) 一 22:26] =>  0:01
+   CLOCK: [$(curweek-1) 一 09:22]--[$(curweek-1) 一 09:57] =>  0:35
+   CLOCK: [$(curweek-1) 一 08:42]--[$(curweek-1) 一 09:14] =>  0:32
+   CLOCK: [$(lastweek-7) 日 20:12]--[$(lastweek-7) 日 20:55] =>  0:43
+   CLOCK: [$(lastweek-7) 日 20:00]--[$(lastweek-7) 日 20:12] =>  0:12
+   CLOCK: [$(lastweek-7) 日 11:25]--[$(lastweek-7) 日 12:37] =>  1:12
+   CLOCK: [$(lastweek-7) 日 10:20]--[$(lastweek-7) 日 11:20] =>  1:00
+   CLOCK: [$(lastweek-7) 日 09:25]--[$(lastweek-7) 日 10:11] =>  0:46
+   CLOCK: [$(lastweek-6) 六 20:35]--[$(lastweek-6) 六 21:01] =>  0:26
+   CLOCK: [$(lastweek-6) 六 20:02]--[$(lastweek-6) 六 20:35] =>  0:33
+   CLOCK: [$(lastweek-6) 六 16:24]--[$(lastweek-6) 六 16:28] =>  0:04
+   CLOCK: [$(lastweek-6) 六 16:10]--[$(lastweek-6) 六 16:15] =>  0:05
+   CLOCK: [$(lastweek-6) 六 13:28]--[$(lastweek-6) 六 14:03] =>  0:35
+   CLOCK: [$(lastweek-6) 六 11:00]--[$(lastweek-6) 六 12:13] =>  1:13
+   CLOCK: [$(lastweek-6) 六 09:54]--[$(lastweek-6) 六 10:37] =>  0:43
+   CLOCK: [$(lastweek-5) 五 13:27]--[$(lastweek-5) 五 14:18] =>  0:51
+   CLOCK: [$(lastweek-4) 四 21:34]--[$(lastweek-4) 四 21:36] =>  0:02
+   CLOCK: [$(lastweek-3) 三 22:45]--[$(lastweek-3) 三 22:55] =>  0:10
+   CLOCK: [$(lastweek-3) 三 13:48]--[$(lastweek-3) 三 14:18] =>  0:30
+   CLOCK: [$(lastweek-2) 二 22:29]--[$(lastweek-2) 二 23:18] =>  0:49
+   CLOCK: [$(lastweek-1) 一 08:33]--[$(lastweek-1) 一 08:56] =>  0:23
+   :END:
+
+** TODO 整理笔记
+   DEADLINE: <$(curweek-7) 日 21:30 +1d> SCHEDULED: <$(curweek-7) 日 21:00 +1d>
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [$(curweek-7) 日 20:23]
+   - State "DONE"       from "TODO"       [$(curweek-6) 六 23:17]
+   - State "DONE"       from "TODO"       [$(curweek-6) 六 12:20]
+   - State "DONE"       from "TODO"       [$(curweek-6) 六 12:20]
+   - State "DONE"       from "TODO"       [$(curweek-3) 三 22:30]
+   - State "DONE"       from "TODO"       [$(curweek-2) 二 23:24]
+   - State "DONE"       from "TODO"       [$(curweek-1) 一 23:13]
+   - State "DONE"       from "TODO"       [$(lastweek-7) 日 23:24]
+   - State "DONE"       from "TODO"       [$(lastweek-7) 日 22:56]
+   - State "DONE"       from "TODO"       [$(lastweek-6) 六 21:31]
+   CLOCK: [$(lastweek-6) 六 21:01]--[$(lastweek-6) 六 21:31] =>  0:30
+   - State "DONE"       from "TODO"       [$(lastweek-5) 五 22:46]
+   - State "DONE"       from "TODO"       [$(lastweek-4) 四 22:11]
+   CLOCK: [$(lastweek-4) 四 21:37]--[$(lastweek-4) 四 22:11] =>  0:34
+   - State "DONE"       from "TODO"       [$(lastweek-3) 三 22:45]
+   CLOCK: [$(lastweek-3) 三 22:27]--[$(lastweek-3) 三 22:45] =>  0:18
+   CLOCK: [$(lastweek-3) 三 21:24]--[$(lastweek-3) 三 22:11] =>  0:47
+   - State "DONE"       from "TODO"       [$(lastweek-2) 二 23:18]
+   - State "DONE"       from "TODO"       [$(lastweek-1) 一 22:26]
+   :END:
+
+** DONE 学习项目A
+   CLOSED: [$(lastweek-2) 二 08:57] DEADLINE: <$(lastweek-2) 二 09:00>
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [$(lastweek-2) 二 08:57]
+   CLOCK: [$(lastweek-2) 二 08:37]--[$(lastweek-2) 二 08:57] =>  0:20
+   :END:
+** DONE 学习项目B
+   CLOSED: [$(lastweek-7) 日 17:00] SCHEDULED: <$(lastweek-1) 一> DEADLINE: <$(curweek-7) 日>
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [$(lastweek-7) 日 17:00]
+   :END:
+
+*** DONE 学习项目B.1
+    CLOSED: [$(lastweek-2) 二 22:28] DEADLINE: <$(lastweek-2) 二 21:00> SCHEDULED: <$(lastweek-1) 一>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [$(lastweek-2) 二 22:28]
+    CLOCK: [$(lastweek-2) 二 21:15]--[$(lastweek-2) 二 22:28] =>  1:13
+    CLOCK: [$(lastweek-2) 二 13:56]--[$(lastweek-2) 二 15:20] =>  1:24
+    :END:
+*** DONE 学习项目B.2
+    CLOSED: [$(lastweek-7) 日 16:38] DEADLINE: <$(lastweek-7) 日 22:00> SCHEDULED: <$(lastweek-1) 一>
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [$(lastweek-7) 日 16:38]
+    CLOCK: [$(lastweek-7) 日 16:08]--[$(lastweek-7) 日 16:38] =>  0:30
+    CLOCK: [$(lastweek-7) 日 14:26]--[$(lastweek-7) 日 15:38] =>  1:12
+    :END:
+* 写作
+  :PROPERTIES:
+  :CATEGORY: 写作
+  :END:
+** DONE 写作项目A
+   CLOSED: [$(lastweek-7) 日 23:24] DEADLINE: <$(lastweek-7) 日> SCHEDULED: <$(lastweek-3) 三>
+*** DONE 写作项目A.1
+    CLOSED: [$(lastweek-4) 四 21:27] DEADLINE: <$(lastweek-4) 四 12:00>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [$(lastweek-4) 四 21:27]
+    CLOCK: [$(lastweek-4) 四 21:09]--[$(lastweek-4) 四 21:27] =>  0:18
+    CLOCK: [$(lastweek-4) 四 17:35]--[$(lastweek-4) 四 18:31] =>  0:56
+    CLOCK: [$(lastweek-4) 四 17:16]--[$(lastweek-4) 四 17:21] =>  0:05
+    :END:
+
+*** DONE 写作项目A.2
+    CLOSED: [$(lastweek-7) 日 23:24] DEADLINE: <$(curweek-7) 日 18:00> SCHEDULED: <$(lastweek-5) 五 20:00>
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [$(curweek-13) 六 18:48]
+    CLOCK: [$(lastweek-7) 日 22:19]--[$(lastweek-7) 日 23:24] =>  1:05
+    CLOCK: [$(lastweek-7) 日 17:30]--[$(lastweek-7) 日 18:58] =>  1:28
+    :END:
+
+* 开发
+  :PROPERTIES:
+  :CATEGORY: 开发
+  :END:
+
+** NEXT 个人开发项目A
+   SCHEDULED: <$(lastweek-5) 五 12:00> DEADLINE: <$(curweek-7) 日 15:00>
+
+*** DONE 个人开发项目A.1
+    CLOSED: [$(lastweek-6) 六 19:10] DEADLINE: <$(curweek-4) 四 12:00> SCHEDULED: <$(lastweek-5) 五 12:00>
+    :LOGBOOK:
+    CLOCK: [$(lastweek-6) 六 16:28]--[$(lastweek-6) 六 19:10] =>  2:42
+    :END:
+*** NEXT 个人开发项目A.2
+    DEADLINE: <$(curweek-6) 六 22:00> SCHEDULED: <$(lastweek-6) 六 09:00>
+    :LOGBOOK:
+    CLOCK: [$(lastweek-6) 六 22:03]--[$(lastweek-6) 六 23:23] =>  1:20
+    :END:
+
+* 其他
+  :PROPERTIES:
+  :CATEGORY: 其他
+  :END:
+
+** NEXT 其他个人项目A
+   SCHEDULED: <$(lastweek-1) 一> DEADLINE: <$(curweek-7) 日>
+
+*** DONE 其他个人项目A.1
+   CLOSED: [$(lastweek-1) 一 19:11] DEADLINE: <$(lastweek-1) 一 21:00>
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [$(lastweek-1) 一 19:11]
+   CLOCK: [$(lastweek-1) 一 18:51]--[$(lastweek-1) 一 19:11] =>  0:20
+   :END:
+
+*** TODO 其他个人项目A.2
+    DEADLINE: <$(curweek-7) 日>
+    :LOGBOOK:
+    CLOCK: [$(curweek-6) 六 16:32]--[$(curweek-6) 六 18:17] =>  1:45
+    :END:
