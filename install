@@ -1,0 +1,172 @@
+#!/usr/bin/env python3
+import os
+import re
+from glob import glob
+from datetime import datetime, timedelta
+
+import click
+
+WORKDIR = os.path.dirname(os.path.abspath(__file__))
+DATE_TEMPLATE_PATTERN = re.compile(r'\$\((?:cur|last)week-[0-9]\)')
+DATE_PATTERN = re.compile(
+    r'(?:\[\d{4}-\d{2}-\d{2} [一二三四五六日](?: \d{2}:\d{2})?(?: \+\d+[dw])?\])|'
+    r'(?:<\d{4}-\d{2}-\d{2} [一二三四五六日](?: \d{2}:\d{2})?(?: \+\d+[dw])?>)'
+)
+CN_WEEKDAYS = '一二三四五六日'
+
+
+def parse_date(date_str):
+    pat = re.compile(r'(?P<year>\d{4})-(?P<month>\d{2})-(?P<day>\d{2})')
+    matches = list(pat.finditer(date_str))
+    if not matches:
+        return None
+
+    now = datetime.now()
+    match_info = matches[0].groupdict()
+    return now.replace(
+        year=int(match_info['year']),
+        month=int(match_info['month']),
+        day=int(match_info['day'])
+    ).date()
+
+
+def save_section(lines, file_obj):
+    if not re.findall(r'TODO|NEXT|DONE|ABORT', lines[0]):
+        for line in lines:
+            print(line, file=file_obj)
+    else:
+        origin_lines = [line for line in lines]
+        # 修正任务状态
+        # 1. SCHEDULED 日期不早与当前日期，那么一律将 status 修改为 TODO，删除所有 clock item
+        # 2. CLOSED 日期不早与当前日期，那么删除 CLOSED 日期，将 status 修改为 NEXT
+        # 3. 重复性任务，将 SCHEDULED/DEADLINE 改成当日
+        status = lines[0].split()[1]
+        assert status in ('TODO', 'NEXT', 'DONE', 'ABORT')
+
+        schedule_line_idx, schedule_line = None, None
+        for idx, line in enumerate(lines[1:]):
+            if re.findall(r'CLOSED|SCHEDULED|DEADLINE', line):
+                schedule_line_idx = idx + 1
+                schedule_line = line
+
+        today = datetime.now().date()
+        keys = re.findall(r'CLOSED|SCHEDULED|DEADLINE', schedule_line)
+        dates = DATE_PATTERN.findall(schedule_line)
+        assert len(keys) == len(dates)
+        date_infos = dict(zip(keys, dates))
+        if 'CLOSED' in date_infos:
+            closed_date_str = date_infos['CLOSED']
+            closed_date = parse_date(closed_date_str)
+            if closed_date >= today:
+                schedule_line = schedule_line.replace(f'CLOSED: {closed_date_str}', '')
+                lines[schedule_line_idx] = schedule_line
+                if status in ('DONE', 'ABORT'):
+                    lines[0] = lines[0].replace(status, 'NEXT')
+
+        if re.findall(r'\+\d+d', schedule_line):
+            if re.findall(r'\+\d+d', date_infos.get('SCHEDULED', '')):
+                scheduled_date_str = date_infos['SCHEDULED']
+                scheduled_date = parse_date(scheduled_date_str)
+                new_scheduled_date_str = scheduled_date_str.replace(
+                    f'{scheduled_date} {CN_WEEKDAYS[scheduled_date.weekday()]}',
+                    f'{today} {CN_WEEKDAYS[today.weekday()]}',
+                )
+                schedule_line = schedule_line.replace(scheduled_date_str, new_scheduled_date_str)
+                lines[schedule_line_idx] = schedule_line
+                if status != 'TODO':
+                    lines[0] = lines[0].replace(status, 'TODO')
+
+            if re.findall(r'\+\d+d', date_infos.get('DEADLINE', '')):
+                deadline_date_str = date_infos['DEADLINE']
+                deadline_date = parse_date(deadline_date_str)
+                new_deadline_date_str = deadline_date_str.replace(
+                    f'{deadline_date} {CN_WEEKDAYS[deadline_date.weekday()]}',
+                    f'{today} {CN_WEEKDAYS[today.weekday()]}',
+                )
+                schedule_line = schedule_line.replace(deadline_date_str, new_deadline_date_str)
+                lines[schedule_line_idx] = schedule_line
+                if status != 'TODO':
+                    lines[0] = lines[0].replace(status, 'TODO')
+        elif date_infos.get('SCHEDULED') and parse_date(date_infos['SCHEDULED']) >= today:
+            if status != 'TODO':
+                lines[0] = lines[0].replace(status, 'TODO')
+
+            lines = lines[:schedule_line_idx + 1]
+
+        for line in lines:
+            print(line, file=file_obj)
+
+
+@click.command()
+@click.option("-o", "--outdir", required=True)
+def main(outdir):
+    """准备 agenda files"""
+    if not os.path.exists(outdir):
+        os.makedirs(os.path.join(outdir, 'agenda-files'))
+
+    # 准备 agenda files
+    agenda_dir = os.path.join(WORKDIR, 'agenda-files')
+    weekday = datetime.now().weekday()
+    cur_date = datetime.now().date()
+    start_date = (datetime.now() + timedelta(days=-8 - weekday)).date()
+
+    for filename in glob(agenda_dir + '/*.org'):
+        basename = os.path.basename(filename)
+        outfile = os.path.join(outdir, 'agenda-files', basename)
+        with open(filename) as fin, open(outfile, 'w') as fout:
+            section = []
+            for line in fin:
+                line, keep_line = line.rstrip(), True
+                if line.startswith('*'):
+                    if section:
+                        save_section(section, fout)
+
+                    section = [line]
+                    continue
+                elif not section:
+                    print(line, file=fout)
+                    continue
+
+                for date_placeholer in DATE_TEMPLATE_PATTERN.findall(line):
+                    date_placeholer = date_placeholer.replace('$(', '').replace(')', '')
+                    week, week_offset = date_placeholer.split('-')
+                    week_offset = int(week_offset)
+                    if week == 'curweek':
+                        week_offset += 7
+
+                    real_date = start_date + timedelta(days=week_offset)
+                    if line.find('SCHEDULED') < 0 and line.find('DEADLINE') < 0 and \
+                       line.find('CLOSED') < 0 and real_date >= cur_date:
+                        keep_line = False
+                        break
+
+                    real_date_str = str(real_date)
+                    line = line.replace('$(' + date_placeholer + ')', real_date_str)
+
+                if keep_line:
+                    section.append(line)
+
+            if section:
+                save_section(section, fout)
+
+            click.secho(f"Generated agenda file: {outfile}")
+
+    # 准备配置文件
+    config_template_file = os.path.join(WORKDIR, 'init.el')
+    config_file = os.path.join(outdir, 'init.el')
+    with open(config_template_file) as fin, open(config_file, 'w') as fout:
+        text = fin.read().strip()
+        text = text.replace(
+            'agenda-files-dir',
+            os.path.abspath(os.path.join(outdir, 'agenda-files'))
+        )
+        print(text, file=fout)
+
+        click.secho(f"Generated Emacs config file: {config_file}")
+
+    click.secho("\nTry it now:")
+    click.secho(f"    emacs -Q -l {config_file}", fg='green', bold=True)
+
+
+if __name__ == '__main__':
+    main()
