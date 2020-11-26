@@ -9,7 +9,7 @@
    CLOCK: [$(lastweek-1) 一 11:00]--[$(lastweek-1) 一 11:40] =>  0:40
    :END:
 * TODO 写工作周报
-  DEADLINE: <2020-11-06 五 18:00 +1w> SCHEDULED: <2020-11-06 五 17:00 +1w>
+  DEADLINE: <$(lastweek-5) 五 18:00 +1w> SCHEDULED: <$(lastweek-5) 五 17:00 +1w>
   :LOGBOOK:
   - State "DONE"       from "TODO"       [$(lastweek-5) 五 21:15]
   CLOCK: [$(lastweek-5) 五 20:42]--[$(lastweek-5) 五 21:15] =>  0:33
@@ -58,7 +58,7 @@
 ** DONE 工作项目A.5
    CLOSED: [$(curweek-5) 五 19:03] DEADLINE: <$(curweek-5) 五> SCHEDULED: <$(curweek-1) 一>
    :LOGBOOK:
-   - State "DONE"       from "TODO"       [$(curweek-6) 六 00:07]
+   - State "DONE"       from "TODO"       [$(curweek-5) 五 19:03]
    CLOCK: [$(curweek-5) 五 16:26]--[$(curweek-5) 五 19:03] =>  2:37
    CLOCK: [$(curweek-2) 二 16:51]--[$(curweek-2) 二 17:15] =>  0:24
    CLOCK: [$(curweek-1) 一 14:00]--[$(curweek-1) 一 16:49] =>  2:49
