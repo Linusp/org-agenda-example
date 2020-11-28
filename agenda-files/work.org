@@ -9,7 +9,7 @@
    CLOCK: [$(lastweek-1) 一 11:00]--[$(lastweek-1) 一 11:40] =>  0:40
    :END:
 * TODO 写工作周报
-  DEADLINE: <$(lastweek-5) 五 18:00 +1w> SCHEDULED: <$(lastweek-5) 五 17:00 +1w>
+  DEADLINE: <$(curweek-5) 五 18:00 +1w> SCHEDULED: <$(curweek-5) 五 17:00 +1w>
   :LOGBOOK:
   - State "DONE"       from "TODO"       [$(lastweek-5) 五 21:15]
   CLOCK: [$(lastweek-5) 五 20:42]--[$(lastweek-5) 五 21:15] =>  0:33
