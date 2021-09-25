@@ -1,5 +1,66 @@
 * Emacs Org Agenda Example
 
-- [X] add agenda template files
-- [ ] create example emacs config
-- [X] add script for installation
+** 依赖
+
+   - Emacs
+   - org-mode
+   - python3
+   - click(python library)
+
+     #+begin_src shell
+     pip3 install click
+     #+end_src
+
+** 使用
+
+   - 生成配置和示例文件
+
+     #+begin_src shell
+     ./install -o example
+     #+end_src
+
+     如果成功，将会看到如下输出
+
+     #+begin_example
+     Generated agenda file: example/agenda-files/inbox.org
+     Generated agenda file: example/agenda-files/personal.org
+     Generated agenda file: example/agenda-files/work.org
+     Generated Emacs config file: example/init.el
+
+     Try it now:
+         emacs -Q -l example/init.el
+     #+end_example
+
+   - 按照上一步的提示启动 Emacs 加载生成的配置（放心，并不会修改您自己的 Emacs 配置）
+
+     #+begin_src shell
+     emacs -Q -l example/init.el
+     #+end_src
+
+     如果顺利，将会看到如下 Emacs 界面
+
+     [[file:images/example.png]]
+
+   - 开始某项任务的计时：移动光标到某件任务上，按下 i 键开始计时
+   - 结束某项任务的计时：
+
+     - 如果是带 SOMETIME 状态的任务，有两种办法结束计时
+
+       - 移动光标到对应任务上，按下 o 终止计时，如果之后想要继续则可以再次按 i 开始计时
+       - 异动光标到其他任务上，按 i 开始新任务的计时，原任务的计时会自动终止
+
+     - 如果是带 TODO/NEXT 等状态的任务，有三种办法结束计时
+
+       - 移动光标到对应任务上，按下 d 标记任务为完成，计时会自动终止
+       - 移动光标到对应任务上，按下 o 终止计时，但不标记任务为完成，如果之后想要继续则可以再次按 i 开始计时
+       - 异动光标到其他任务上，按 i 开始新任务的计时，原任务的计时会自动终止
+
+   - 查看时间使用情况：按下快捷键 C-c r(my-agenda-review)显示时间使用统计结果
+
+     默认情况下 —— 即加载配置后未进行任务的计时，会看到如下界面
+
+     [[file:images/agenda_review_default.png]]
+
+     按 b 可以查看前一天的数据
+
+     [[file:images/agenda_review_yesterday.png]]
