@@ -1,9 +1,6 @@
 (set-language-environment 'UTF-8)
 (set-locale-environment "UTF-8")
-(set-frame-font "Dejavu Sans Mono 12" nil t)
-(modify-all-frames-parameters (list (cons 'font "Dejavu Sans Mono 12")))
-(set-fontset-font "fontset-default" 'unicode "WenQuanYi Micro Hei Mono 15");
-(setq face-font-rescale-alist '(("WenQuanYi Micro Hei Mono" . 1.3)))
+(toggle-frame-maximized)
 
 ;; org-agenda 基础设置
 (require 'org)
@@ -234,5 +231,33 @@
         ))
 
 
-(org-agenda "" "k")
+;; 把 agenda-view 里的按键 k 改成执行 org-capture 而不是 org-agenda-capture
+(add-hook 'org-agenda-mode-hook
+          (lambda () (local-set-key (kbd "k") 'org-capture)))
+
+;; 定义函数和快捷键展示当日日程和每日回顾视图
+(defun my-agenda-list ()
+  (interactive)
+  (progn
+    (org-agenda "" "a")
+    (delete-other-windows)
+    ))
+(defun my-agenda-review ()
+  (interactive)
+  (progn
+    (org-agenda "" "l")
+    (delete-other-windows)
+    ))
+(defun my-agenda-kanban ()
+  (interactive)
+  (progn
+    (org-agenda "" "k")
+    (delete-other-windows)
+    ))
+
+(global-set-key (kbd "C-c a") 'my-agenda-list)
+(global-set-key (kbd "C-c r") 'my-agenda-review)
+(global-set-key (kbd "C-c k") 'my-agenda-kanban)
+
+(org-agenda "" "a")
 (delete-other-windows)
