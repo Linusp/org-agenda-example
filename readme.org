@@ -1,5 +1,7 @@
 * Emacs Org Agenda Example
 
+  本项目是我的生活记录系统的示例，关于我的生活记录，详见我的 [[https://www.zmonster.me/2021/09/25/record-life-with-org.html][博客文章]]。
+
 ** 依赖
 
    - Emacs
